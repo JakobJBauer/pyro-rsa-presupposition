@@ -1,0 +1,41 @@
+{
+  "quds": {
+    "profession": {
+      "Olympic sprinter": [1, 0, 0, 0, 0],
+      "Olympic marathoner": [0, 1, 0, 0, 0],
+      "Runner (other)": [0, 0, 1, 0, 0],
+      "Athlete (other)": [0, 0, 0, 1, 0],
+      "Other": [0, 0, 0, 0, 1]
+    }
+  },
+  "utterances": {
+    "Olympic sprinter": [1, 0, 0, 0, 0],
+    "Not olympic sprinter": [0, 1, 1, 1, 1],
+//    "Olympic marathoner": [0, 1, 0, 0, 0],
+//    "Not olympic marathoner": [1, 0, 1, 1, 1],
+    "Runner": [1, 1, 1, 0, 0],
+    "Not runner": [0, 0, 0, 1, 1],
+    "Athlete": [1, 1, 1, 1, 0],
+    "Not athlete": [0, 0, 0, 0, 1],
+//    "Baseball player": [0, 0, 0, 1, 0],
+//    "Not baseball player": [1, 1, 1, 0, 1],
+    "Office worker": [0, 0, 0, 0, 1],
+    "Not office worker": [1, 1, 1, 1, 0],
+    "_": [1, 1, 1, 1, 1]
+  },
+  "n_worlds": 5,
+  "worlds": {
+    "0": "Olympic sprinter",
+    "1": "Olympic marathoner",
+    "2": "Runner (other)",
+    "3": "Athlete (other)",
+    "4": "Other"
+  },
+  "world_prior": {
+    "0": 0.01,
+    "1": 0.01,
+    "2": 0.05,
+    "3": 0.10,
+    "4": 0.93
+  }
+}
